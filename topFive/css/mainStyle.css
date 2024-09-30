@@ -111,12 +111,12 @@ p {
   color: black;
 
 
-  padding-left: 30px;
+  padding-left: 10%;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 30px;
+  padding-right: 10%;
 
-  font-size: 24px;
+  font-size: 90%;
   
   font-family: "Signika Negative", sans-serif;
   font-optical-sizing: auto;
@@ -150,24 +150,36 @@ dt {
   font-size: 20px;
 }
 
-section {
-  display: block;
-  unicode-bidi: isolate;
-}
 
 
-#Travel { 
+.container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding-top: 2%;
-  padding-bottom: 5%;
+  justify-content: column;
+  align-items: center; 
+  margin-bottom: 20px;
+  padding: 4%;
+  column-gap: 2%;
 }
 
-.Atags {
-  text-align: center;
-}
+.container1 { 
+  display:flex;
+  justify-content: column;
+  align-items:center;
+  margin-bottom: 20px;
 
+  padding: 3%;
+
+  
+}
+  
+.food { 
+  display:flex;
+  justify-content: column;
+  align-items:center;
+  margin-bottom: 20px;
+
+  padding: 3%;
+
+  list-style: none;
+}
 

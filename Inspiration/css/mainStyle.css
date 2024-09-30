@@ -19,6 +19,14 @@ body{
 
 }
 
+a:hover { 
+  text-decoration-color:rgb(169, 23, 23);
+  color: white;
+  text-shadow: -1px -1px red;
+  cursor:grab;
+  
+  }
+  
 h1 {
   background-color:rgb(169, 23, 23);
   opacity: 80%;
@@ -67,7 +75,8 @@ img {
   display: block;
 
   margin-top: 10px;
-
+  align-self:flex-end;
+  
 }
 
 .Eve {
@@ -180,7 +189,6 @@ a {
 p {
   color: black;
   
-
 
   padding-left: 10%;
   padding-top: 30px;
