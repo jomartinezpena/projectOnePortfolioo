@@ -57,15 +57,6 @@ nav{
 }
 
 
-footer {
-  background-color: rgb(206, 187, 163);
-  border: 20px;
-  padding: 7px;
-
-  text-transform: uppercase;
-
-  font-size:20px;
-}
 img { 
 
   border: 2px solid black;
@@ -78,9 +69,10 @@ img {
   margin-top: 10px;
 
 }
+
 .Eve {
-Height: 50%;
-Width: 50%;
+Height: 30%;
+Width: 30%;
 
 border: 2px solid black;
   margin-left: auto;
@@ -89,14 +81,26 @@ border: 2px solid black;
   display: block;
 
   margin-top: 10px;
-  height: 30%;
-  width: 30%;
+  height: 27%;
+  width: 27%;
+
+}
+
+.Evee {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: space-evenly;
+}
+#Eve { 
+  background-color:antiquewhite;
+
 
 }
 
 .Makoto {
-  Height: 50%;
-  Width:50%;
+  Height: 30%;
+  Width:30%;
 
   border: 2px solid black;
   margin-left: auto;
@@ -105,14 +109,25 @@ border: 2px solid black;
   display: block;
 
   margin-top: 10px;
-  height: 30%;
-  width: 30%;
+  height: 27%;
+  width: 27%;
 
+}
+.Makotoo {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: space-evenly;
+}
+
+#Makoto { 
+  background-color: antiquewhite;
+  
 }
 
 .Andy { 
-  Height: 50%;
-  Width: 50%; 
+  Height: 30%;
+  Width: 30%; 
 
   border: 2px solid black;
   margin-left: auto;
@@ -121,13 +136,21 @@ border: 2px solid black;
   display: block;
 
   margin-top: 10px;
-  height: 30%;
-  width: 30%;
+  height: 27%;
+  width: 27%;
 
 }
 
+.Andyy { 
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: space-evenly;
+}
 
-
+#Andy { 
+  background-color:antiquewhite;
+}
 
 
 
@@ -137,19 +160,19 @@ h3 {
 
 
   padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 3%;
+  padding-bottom: 2%;
   padding-right: 30px;
 
-  font-size: 35px;
+  font-size: 25px;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:none;
 }
 
 a { 
-  padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-right: 30px;
-  font-size: 20px;
+ 
 
   text-decoration: underline;
 }
@@ -160,19 +183,33 @@ p {
 
 
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
   padding-right: 30px;
 
-  font-size: 30px;
+  font-size: 95%;
   
   
   font-family: "Signika Negative", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+
+  text-align: center;
 }
 
+footer {
+  background-color: rgb(206, 187, 163);
+  border: 20px;
+  
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+
+  text-transform: uppercase;
+  
+  font-size:20px;
+}
 
 
 
