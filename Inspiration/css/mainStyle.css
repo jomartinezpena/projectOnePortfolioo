@@ -76,12 +76,14 @@ img {
 
   margin-top: 10px;
   align-self:flex-end;
+
   
 }
 
 .Eve {
-Height: 30%;
-Width: 30%;
+Height: 500px;
+Width: 500px;
+display: flex;
 
 border: 2px solid black;
   margin-left: auto;
