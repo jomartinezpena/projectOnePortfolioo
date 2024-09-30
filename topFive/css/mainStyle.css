@@ -17,6 +17,9 @@ body{
 
 }
 
+section {
+  padding-top: 2%;
+}
 
 h1 {
   background-color:rgb(169, 23, 23);
@@ -151,7 +154,17 @@ dt {
 
 }
 
+#Travel {
+  background-color: antiquewhite
+}
 
+#Food {
+  background-color: antiquewhite;
+}
+
+#Animals { 
+  background-color: antiquewhite;
+}
 
 .container {
   display: flex;
@@ -167,22 +180,13 @@ dt {
 
 }
 
-.container1 { 
-  display:flex;
-  justify-content: column;
-  align-items:center;
-  margin-bottom: 20px;
 
-  padding: 3%;
-
-  
-}
   
 .food { 
   display:flex;
   justify-content: column;
   align-items:center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 
   padding: 3%;
 
