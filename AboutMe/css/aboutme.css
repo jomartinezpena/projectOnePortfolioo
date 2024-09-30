@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
   text-decoration: none;
   color: black;
 }
@@ -88,32 +88,29 @@ img{
   width: 24%;
 }
 
-.container {
-  display: flex;
-  justify-content: column;
-  align-items: center; 
-  margin-bottom: 40px;
-  padding: 20px;
-  column-gap: 2%;
+.beach { 
+  width: 90%;
+  height: 90%;
+  margin: 0 auto 5%;
+  display: block;
 }
 
-.container1 { 
-  display:flex;
-  justify-content: row;
-  align-items:center;
+.red { 
   
+  width: 90%;
+  height: 90%;
+  margin: 0 auto 5%;
+  display: block;
 }
 
 
 p {
   color: black;
   border: 2px dotted black; 
+  
+  text-align: justify;
 
-
-  padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 30px;
+   padding: 2%;
 
   font-size: 15px;
   
@@ -129,5 +126,24 @@ h2 {
   margin-top: 2%;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+section{  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+article { 
+  padding-top: 2%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
