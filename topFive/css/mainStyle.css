@@ -148,6 +148,7 @@ dl {
 
 dt {
   font-size: 20px;
+
 }
 
 
@@ -157,8 +158,11 @@ dt {
   justify-content: column;
   align-items: center; 
   margin-bottom: 20px;
-  padding: 4%;
-  column-gap: 2%;
+  width: 30%;
+  height: 30%;
+  padding: 2%;
+  column-gap: 5%;
+  list-style: none;
 }
 
 .container1 { 
